@@ -1,6 +1,5 @@
 {
   "name": "@talexjs/talex",
-  "private": true,
   "version": "1.0.1",
   "type": "module",
   "scripts": {
