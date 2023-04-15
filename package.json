@@ -2,7 +2,6 @@
   "name": "talex",
   "version": "1.0.1",
   "description": "基于vue3 + typescript 的可配置化的UI 组件库",
-  "private": true,
   "scripts": {
     "lint": "eslint --fix --ext .ts,.vue packages",
     "format": "prettier --write \"packages/**/*.ts\" \"packages/**/*.vue\"",
