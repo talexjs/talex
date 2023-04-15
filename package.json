@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "lint": "eslint --fix --ext .ts,.vue packages",
-    "format": "prettier --write \"packages/**/*.ts\" \"packages/**/*.vue\""
+    "format": "prettier --write \"packages/**/*.ts\" \"packages/**/*.vue\"",
+    "publish": "changeset && changeset version && changeset publish"
   },
   "keywords": [],
   "repository": {
