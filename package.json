@@ -9,6 +9,17 @@
     "publish": "changeset && changeset version && changeset publish"
   },
   "keywords": [],
+  "lint-staged": {
+    "*.{js,vue,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/talexjs/talex.git"
