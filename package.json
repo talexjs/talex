@@ -1,0 +1,20 @@
+{
+  "name": "talex",
+  "version": "1.0.0",
+  "description": "基于vue3 + typescript 的可配置化的UI 组件库",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talexjs/talex.git"
+  },
+  "author": "fengwang",
+  "bugs": {
+    "url": "https://github.com/talexjs/talex/issues"
+  },
+  "homepage": "https://github.com/talexjs/talex#readme",
+  "license": "MIT"
+}
