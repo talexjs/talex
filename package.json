@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test:run": "echo 1",
-    "lint": "eslint --fix --ext .ts,.vue packages",
-    "format": "prettier --write \"packages/**/*.ts\" \"packages/**/*.vue\"",
+    "lint": "eslint --fix --ext .js,.ts,.vue packages",
+    "format": "prettier --write \"packages/**/*.js\" \"packages/**/*.ts\" \"packages/**/*.vue\"",
     "publish": "changeset && changeset version && changeset publish",
     "prepare": "husky install",
     "commit": "cz"
