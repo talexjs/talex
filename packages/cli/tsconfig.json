@@ -8,6 +8,7 @@
     "noImplicitOverride": true,
     "noUnusedLocals": true,
     "esModuleInterop": true,
+    "typeRoots": ["node_modules/@types"],
     "useUnknownInCatchVariables": false,
     "declaration": false,
     "resolveJsonModule": true

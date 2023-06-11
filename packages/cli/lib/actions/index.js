@@ -1,2 +1,2 @@
-'use strict';
+"use strict";
 console.log(11);
