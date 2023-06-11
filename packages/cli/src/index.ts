@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 import { Command } from 'commander';
 import chalk from 'chalk';
+import {} from 'node';
 const program = new Command();
 // 配置帮助信息
 program.on('--help', () => {
